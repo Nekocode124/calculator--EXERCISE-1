@@ -1,3 +1,21 @@
+//what is a function?-
+/*functions are one of the fundamental building blocks in javascript,so basically it is a set of statements that performs a task or calculates a value.     function syntax- function name(){ this is the body of the function,we put statements/logic } */
+
+//e.g
+/*function greet(name){
+                    //name is a parameter of the greet function,a function can have more then one parameter. 
+    console.log('Hello' + name);
+}
+      //this is a argument
+greet('Yanique');
+ */
+
+//What is parseInt?
+/* It takes a string and converts it to a numbers */
+
+//What is prompt?
+/** prompt is one of the methods that are built into Javascript, in the browser */
+
 function radius() {
   var a = parseInt(document.getElementById("area").value);
   //this add times the pie by the area
@@ -23,16 +41,3 @@ area = w * l;
 document.write("Your Width is" + w + "<br> ");
 document.write("Your length is" + l + "<br>");
 document.write("area of rectangle" + area, "<br>");
-
-/*
-
-function calculateCircumference(radius) {
-  return 2 * Math.PI * radius;
-}
-
-console.log(Math.PI);
-// expected output: 3.141592653589793
-
-console.log(calculateCircumference(10));
-// expected output: 62.83185307179586
-*/
